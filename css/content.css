@@ -1,0 +1,45 @@
+.content-container{
+    margin-top: 0.5%;
+    display:grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: auto;
+}
+
+.content-items{
+    display:flex;
+    margin-top: 5%;
+    grid-column: 3/7;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.article-title{
+    align-self: center;
+    display: flex;
+    
+    
+}
+
+.article-content{
+    justify-self: end;
+    align-self: center;
+    height: 10%;
+}
+
+.article-image{
+    justify-self: start;
+    align-self: start;
+    height: 100%;
+}
+
+.article-main-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;}
+
+.article-main-img{
+    display: flex;
+}
+
+
+

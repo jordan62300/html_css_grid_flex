@@ -1,0 +1,23 @@
+.sidebar-content{
+    grid-row: 1/6;
+    grid-column: 8  / 10;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    margin-top: -3.2%;
+    flex-direction: column;
+    min-height: 20%;
+    
+}
+
+.sidebar-title{
+ 
+    margin:10%
+}
+
+.sidebar-itemslist{
+    
+}
+
+.sidebar-item{
+    margin:10%
+}
