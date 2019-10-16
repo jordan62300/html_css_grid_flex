@@ -5,10 +5,11 @@ li {
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .lightgrey{
-    color:lightgrey;
+    color:RGB(156, 152, 151);
 }
 img{
     margin: 0;
